@@ -1,4 +1,4 @@
-import cuencoL from "../src/img/Cuenco L.jpeg"
+import cuencoS from "../img/cuencoS.jpeg"
 
 const products = [
     {
@@ -6,7 +6,7 @@ const products = [
         categoryId:"velas",
         name:"Cuenco L",
         description:"Contenido Neto: 135gr",
-        img: cuencoL,
+        img: cuencoS,
         price:"$89.999,00",
         stock:95
     },
