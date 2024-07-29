@@ -1,22 +1,23 @@
-import cuencoS from "../img/cuencoS.jpeg"
+import cuencoS from "./img/cuencoS.jpeg"
+import cuencoPetit from "./img/cuencoPetit.jpeg"
 
 const products = [
     {
         id:1,
         categoryId:"velas",
-        name:"Cuenco L",
-        description:"Contenido Neto: 135gr",
+        name:"Cuenco Small",
+        description:"Contenido Neto: 45gr",
         img: cuencoS,
-        price:"$89.999,00",
+        price:"$2.500",
         stock:95
     },
     {
         id:2,
-        categoryId:"smartwatches",
-        name:"Watch",
-        description:"White Smartwatch",
-        img: "",
-        price:"$8.999,00",
+        categoryId:"velas",
+        name:"Cuenco Petit",
+        description:"Contenido Neto: 45gr",
+        img: cuencoPetit,
+        price:"$2.500",
         stock:80
     },
     {
