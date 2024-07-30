@@ -1,5 +1,6 @@
 import intiLogo from "../img/LOGO INTI 2.jpeg";
 import intiLogo2 from "../img/LOGO INTI.PNG"
+import matesSlider from "../img/matesSlider.jpeg"
 
 const slider = [
     {
@@ -14,7 +15,7 @@ const slider = [
     },
     {
         id:3,
-        image:"https://advancedbytez.com/wp-content/uploads/2022/03/Accessibility-for-your-Online-eCommerce-Store.jpg",
+        image:matesSlider,
         title:"portada"
     },
     {

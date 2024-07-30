@@ -7,17 +7,25 @@ import {  AppBar,Toolbar, Typography,Image, Box } from "@mui/material";
 import Carrusel from "./Carrusel";
 import NavBar from "./NavBar";
 
+
+
 const Home = () => {
- 
+  //const products = products;
+  console.log(products.categoryId)
   return (
     <>
       <NavBar/>
       <Carrusel/>
       {/*<Box className={styles.box}>
       <img src={background} alt= "not found" width="100%" height="auto"/>
-      </Box>*/}
+      </Box>*/}{/*
+       products.categoryId && products.categoryId ==="velas" 
+       ? (<Typography>Velas</Typography>)
+       : (<Typography>Mates</Typography>)
 
-    <div className={styles.itemContainer}>
+  */}
+      
+   <div className={styles.itemContainer}>
   {
              products && products
             .map((item) => 
@@ -36,8 +44,9 @@ const Home = () => {
                  )
              })
             
-             }
+            }
       </div>
+       
     </>
   );
 };
