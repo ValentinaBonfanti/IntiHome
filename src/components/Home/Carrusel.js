@@ -7,7 +7,7 @@ function Carrusel()
 {    
 
     return (
-        <Carousel>
+        <Carousel style={{background:'#221711'}}>
             {
                 slider.map( (item) => <Item key={item.id} item={item} /> )
             }

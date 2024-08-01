@@ -1,20 +1,32 @@
 .container{
-    background-color: rgb(187, 222, 251);
+    background-color: #221711;
 }
 a{
     text-decoration: none;
 }
 
 .itemContainer{
+    background-color: #EFE4CF;
     display: inline-flex;
     flex-wrap: wrap; 
      justify-content: space-around;
-     margin-top: 20px;
+     padding-top: 20px;
+    /* margin-top: 20px;
      margin-right: 20px;
      margin-left: 20px;
-     margin-bottom: 20px;
+     margin-bottom: 20px;*/
 }
-
+.title{
+    color:#f2dfd5;
+    font-style:oblique;
+    font-family: 'Didot';
+    font-size: 80px;
+    text-align: center;
+    font-weight: lighter;
+    /*display: inline-flex;
+    flex-wrap: wrap; 
+     justify-content: center;*/
+}
 .box img{
     width: 100%;
     height: auto;

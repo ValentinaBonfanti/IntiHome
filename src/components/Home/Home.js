@@ -6,7 +6,8 @@ import {  AppBar,Toolbar, Typography,Image, Box } from "@mui/material";
 /*import background from "../../img/background.webp";*/
 import Carrusel from "./Carrusel";
 import NavBar from "./NavBar";
-
+import Velas from "./Velas";
+import Mates from "./Mates";
 
 
 const Home = () => {
@@ -16,37 +17,9 @@ const Home = () => {
     <>
       <NavBar/>
       <Carrusel/>
-      {/*<Box className={styles.box}>
-      <img src={background} alt= "not found" width="100%" height="auto"/>
-      </Box>*/}{/*
-       products.categoryId && products.categoryId ==="velas" 
-       ? (<Typography>Velas</Typography>)
-       : (<Typography>Mates</Typography>)
-
-  */}
+      <Velas/>
+      <Mates/>
       
-   <div className={styles.itemContainer}>
-  {
-             products && products
-            .map((item) => 
-             {
-                 return (
-                 <div key={item.id}>
-                 <ItemsCard
-                 name={item.name}
-                 img={item.img}
-                 id={item.id}
-                 description={item.description}
-                 price={item.price}
-                 
-                 />
-                 </div>
-                 )
-             })
-            
-            }
-      </div>
-       
     </>
   );
 };

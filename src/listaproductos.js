@@ -5,6 +5,14 @@ import cuencoL from "./img/cuencoL.jpeg"
 import cuencoXL from "./img/cuencoXL.jpeg"
 import fustaBi from "./img/fustaBi.jpeg"
 import fustaTri from "./img/fustaTri.jpeg"
+import mateClassic from "./img/clasic.jpeg"
+import mateSunset from "./img/sunset.jpeg"
+import mateMara from "./img/mara.jpeg"
+import mateTama from "./img/tamarindo.jpeg"
+import mateMalte from "./img/malta.jpeg"
+import mateSoft from "./img/soft.jpeg"
+import mateMila from "./img/mila.jpeg"
+import mateCler from "./img/cler.jpeg"
 
 
 const products = [
@@ -70,6 +78,78 @@ const products = [
         img:fustaTri,
         price:"$5.700",
         stock:85
+    },
+    {
+        id:8,
+        categoryId:"mates",
+        name:"Classic",
+        description:"Mate de madera en forma desigual pintado a mano.",
+        img:mateClassic,
+        price:"$4.500",
+        stock:80
+    },
+    {
+        id:9,
+        categoryId:"mates",
+        name:"Sunset",
+        description:"Mate de madera en forma cilindrica pintado a mano.",
+        img:mateClassic,
+        price:"$4.500",
+        stock:80
+    },
+    {
+        id:10,
+        categoryId:"mates",
+        name:"Mara",
+        description:"Mate de madera en forma cilindrica pintado a mano.",
+        img:mateMara,
+        price:"$4.500",
+        stock:80
+    },
+    {
+        id:11,
+        categoryId:"mates",
+        name:"Tamarindo",
+        description:"Mate de madera en forma cilindrica/rectangular pintado a mano.",
+        img:mateTama,
+        price:"$4.500",
+        stock:80
+    },
+    {
+        id:12,
+        categoryId:"mates",
+        name:"Malta",
+        description:"Mate de madera en forma cilindrica pintado a mano.",
+        img:mateMalte,
+        price:"$4.500",
+        stock:80
+    },
+    {
+        id:13,
+        categoryId:"mates",
+        name:"Soft",
+        description:"Mate de madera en forma cilindrica pintado a mano.",
+        img:mateSoft,
+        price:"$4.500",
+        stock:80
+    },
+    {
+        id:14,
+        categoryId:"mates",
+        name:"Mila",
+        description:"Mate de madera en forma desigual pintado a mano.",
+        img:mateMila,
+        price:"$4.500",
+        stock:80
+    },
+    {
+        id:15,
+        categoryId:"mates",
+        name:"Cler",
+        description:"Mate de madera en forma cilindrica pintado a mano.",
+        img:mateCler,
+        price:"$4.500",
+        stock:80
     }
 ]
 
