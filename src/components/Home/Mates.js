@@ -6,7 +6,7 @@ import ItemsCard from "../Items/ItemsCard";
 
 const Mates = () => {
   return(
-<div name='mates' className={styles.container}>
+<div name='mates' id="mates" className={styles.container}>
    <div className={styles.title}>Mates</div>
    <Box className={styles.itemContainer}>
   {

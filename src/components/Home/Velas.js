@@ -3,10 +3,12 @@ import styles from "../../css/Home.module.css"
 import { Box } from "@mui/material";
 import products from "../../listaproductos"
 import ItemsCard from "../Items/ItemsCard";
+import { Element } from "react-scroll";
 
 const Velas = () => {
   return(
-<div name='velas' className={styles.container}>
+<div name='velas'id="velas" className={styles.container}>
+  <Element name="velas">
    <div className={styles.title}>Velas</div>
    <Box className={styles.itemContainer}>
   {
@@ -30,7 +32,9 @@ const Velas = () => {
             
             }
             </Box>
+            </Element>
       </div>
+      
   )
 }
 
