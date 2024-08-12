@@ -13,6 +13,10 @@ import mateMalte from "./img/malta.jpeg"
 import mateSoft from "./img/soft.jpeg"
 import mateMila from "./img/mila.jpeg"
 import mateCler from "./img/cler.jpeg"
+import tazonPerro from "./img/perro.jpeg"
+import tazonConejo from "./img/conejo.jpeg"
+import tazonChancho from "./img/chancho.jpeg"
+import tazonGato from "./img/gato.jpeg"
 
 
 const products = [
@@ -93,7 +97,7 @@ const products = [
         categoryId:"mates",
         name:"Sunset",
         description:"Mate de madera en forma cilindrica pintado a mano.",
-        img:mateClassic,
+        img:mateSunset,
         price:"$4.500",
         stock:80
     },
@@ -149,6 +153,42 @@ const products = [
         description:"Mate de madera en forma cilindrica pintado a mano.",
         img:mateCler,
         price:"$4.500",
+        stock:80
+    },
+    {
+        id:16,
+        categoryId:"tazas",
+        name:"Perro",
+        description:"Tazon de ceramica con capacidad de 250ml",
+        img:tazonPerro,
+        price:"$7.000",
+        stock:80
+    },
+    {
+        id:17,
+        categoryId:"tazas",
+        name:"Conejo",
+        description:"Tazon de ceramica con capacidad de 250ml",
+        img:tazonConejo,
+        price:"$7.000",
+        stock:80
+    },
+    {
+        id:18,
+        categoryId:"tazas",
+        name:"Chancho",
+        description:"Tazon de ceramica con capacidad de 250ml",
+        img:tazonChancho,
+        price:"$7.000",
+        stock:80
+    },
+    {
+        id:19,
+        categoryId:"tazas",
+        name:"Gato",
+        description:"Tazon de ceramica con capacidad de 250ml",
+        img:tazonGato,
+        price:"$7.000",
         stock:80
     }
 ]

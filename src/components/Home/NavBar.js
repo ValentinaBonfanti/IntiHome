@@ -1,4 +1,3 @@
-// 
 
 import React from "react";
 import { AppBar, Toolbar, Box, Link as MuiLink} from "@mui/material";
@@ -16,18 +15,20 @@ function NavBar() {
           </MuiLink>
          <Box style={{position: 'absolute',
         top: '40%',
-        right: '10%',
+        right: '5%',
         color:'#f2dfd5',
         fontFamily:'Didot',
         fontSize:'25px',
         textAling:'center'}}>
-          <ScrollLink smooth={true} to="velas" style={{ marginLeft: '20px', color: 'white', cursor: 'pointer' }}>
+          <ScrollLink smooth={true} to="velas" style={{ marginLeft: '20px', color: '#EFE4CF', cursor: 'pointer' }}>
             Velas
           </ScrollLink>
-          <ScrollLink smooth={true} to="mates" style={{ marginLeft: '20px', color: 'white', cursor: 'pointer' }}>
+          <ScrollLink smooth={true} to="mates" style={{ marginLeft: '20px', color: '#EFE4CF', cursor: 'pointer' }}>
             Mates
           </ScrollLink>
-          
+          <ScrollLink smooth={true} to="tazas" style={{ marginLeft: '20px', color: '#EFE4CF', cursor: 'pointer' }}>
+            Tazas
+          </ScrollLink>
           </Box>
         </Toolbar>
       </AppBar>

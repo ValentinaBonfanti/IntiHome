@@ -4,18 +4,21 @@ import Carrusel from "./Carrusel";
 import NavBar from "./NavBar";
 import Velas from "./Velas";
 import Mates from "./Mates";
+import Tazas from "./Tazas";
+import Footer from "./Footer";
+import Faq from "./Faq";
 
 
 const Home = () => {
-  //const products = products;
-  console.log(products.categoryId)
   return (
     <>
       <NavBar/>
       <Carrusel/>
       <Velas/>
       <Mates/>
-      
+      <Tazas/>
+      <Faq/>
+      <Footer/>
     </>
   );
 };

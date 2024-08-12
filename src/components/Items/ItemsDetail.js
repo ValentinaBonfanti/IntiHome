@@ -23,7 +23,7 @@ export default function ItemsDetail(){
             </Box>
             <Box margin={5} paddingTop={5} width="250px">
                 <div style={{ fontWeight: 'bold' }}>{products[id-1].description}</div>
-                <p>price: {products[id-1].price}</p>
+                <p>{products[id-1].price}</p>
                 <p style={{borderBottom:"solid 3px black",paddingBottom:"7px"}}>Available stock: {products[id-1].stock}</p>
                 <Button
                         variant="contained"

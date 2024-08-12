@@ -17,7 +17,7 @@ export default function ItemsCard({id, name, img, description, price}) {
                {name}
              </Typography>
              <Typography variant="body2" color="textSecondary" component="p">
-               Price:{price}
+                {price}
              </Typography>
             </CardContent>
             
@@ -25,10 +25,10 @@ export default function ItemsCard({id, name, img, description, price}) {
               <img src={img} className={styles.img} title={name} alt="img not found" width="200px" height="250px"/>
              </div>
              
-             <CardActions >
-             <Button variant="contained" color="warning"className={styles.button}>
-              Details
-             </Button>
+             <CardActions style={{textAlign:"center"}} >
+             {/*<Button style={{textAlign:"center"}} size="small" variant="contained" color="warning" className={styles.button}>
+              Detalle
+             </Button>*/}
              </CardActions>
              </CardActionArea>
        </Link>

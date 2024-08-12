@@ -1,27 +1,28 @@
 import intiLogo from "../img/LOGO INTI 2.jpeg";
-import intiLogo2 from "../img/LOGO INTI.PNG"
-import matesSlider from "../img/matesSlider.jpeg"
+import intiLogo2 from "../img/LOGO INTI.jpeg";
+import matesSlider from "../img/matesSlider.jpeg";
+import IntiVideo from "../img/IntiVideo.mp4"
 
 const slider = [
     {
         id:1,
         image:intiLogo,
-        title:"online shopping"
+        title:"foto"
     },
     {
         id:2,
         image:intiLogo2,
-        title:"image1"
+        title:"foto"
     },
     {
         id:3,
         image:matesSlider,
-        title:"portada"
+        title:"foto"
     },
     {
         id:4,
-        image:"https://miro.medium.com/v2/resize:fit:1169/1*V3FhAaJ5ZiQf_Mt2fgz6bQ.png",
-        title:"close"
+        image: IntiVideo,
+        title:"video"
     }
 ]
 
