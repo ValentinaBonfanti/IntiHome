@@ -6,7 +6,7 @@ a{
 }
 
 .itemContainer{
-    background-color: #EFE4CF;
+    background-color: #F5F5DC;
     display: inline-flex;
     flex-wrap: wrap; 
      justify-content: space-around;
@@ -17,7 +17,7 @@ a{
      margin-bottom: 20px;*/
 }
 .title{
-    color:#f2dfd5;
+    color:#F5F5DC;
     font-style:oblique;
     font-family: 'Didot';
     font-size: 80px;

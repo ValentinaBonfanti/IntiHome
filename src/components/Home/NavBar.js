@@ -20,14 +20,17 @@ function NavBar() {
         fontFamily:'Didot',
         fontSize:'25px',
         textAling:'center'}}>
-          <ScrollLink smooth={true} to="velas" style={{ marginLeft: '20px', color: '#EFE4CF', cursor: 'pointer' }}>
+          <ScrollLink smooth={true} to="velas" style={{ marginLeft: '20px', color: '#F5F5DC', cursor: 'pointer' }}>
             Velas
           </ScrollLink>
-          <ScrollLink smooth={true} to="mates" style={{ marginLeft: '20px', color: '#EFE4CF', cursor: 'pointer' }}>
+          <ScrollLink smooth={true} to="mates" style={{ marginLeft: '20px', color: '#F5F5DC', cursor: 'pointer' }}>
             Mates
           </ScrollLink>
-          <ScrollLink smooth={true} to="tazas" style={{ marginLeft: '20px', color: '#EFE4CF', cursor: 'pointer' }}>
+          <ScrollLink smooth={true} to="tazas" style={{ marginLeft: '20px', color: '#F5F5DC', cursor: 'pointer' }}>
             Tazas
+          </ScrollLink>
+          <ScrollLink smooth={true} to="faq" style={{ marginLeft: '20px', color: '#F5F5DC', cursor: 'pointer' }}>
+            FAQ
           </ScrollLink>
           </Box>
         </Toolbar>
